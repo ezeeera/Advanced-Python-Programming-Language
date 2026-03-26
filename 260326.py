@@ -14,3 +14,4 @@ while True:
     t.fd(distance)
     print("제어에성공하였습니다. ")
     turtle.done()
+    
