@@ -1,0 +1,16 @@
+import turtle
+
+t = turtle.Turtle()
+t.shape("turtle")
+
+color =input("색상(blue, red, yellow만가능):")
+t.color(color)
+
+while True:
+    print("거리와각도를입력하시오.")
+    degree =int(input("거북이회전각도(left):"))
+    distance =int(input("거북이전진거리:"))
+    t.left(degree)
+    t.fd(distance)
+    print("제어에성공하였습니다. ")
+    turtle.done()
